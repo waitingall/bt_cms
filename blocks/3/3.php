@@ -14,9 +14,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/1.less', 'css/1.css');
+        $less->compileFile('less/3.less', 'css/3.css');
         ?>
-        <link href="css/1.css" rel="stylesheet" type="text/css" />
+        <link href="css/3.css" rel="stylesheet" type="text/css" />
 
     </head>
 
