@@ -16,8 +16,8 @@
         <link href="css/3.css" rel="stylesheet" type="text/css" />
     </head>
 
-    <body>
-     
+<body>
+    <div class='type-1'>
         <div class="container">
             <div class="row r1">
             	<div class="col-md-1 co1">
@@ -29,7 +29,6 @@
                    <p><img src="images/sushi-icon-3.svg" width="100" height="100"></p>
                </div>
             </div>
-       
         
             <div class="row r2">
                 <div class="col-md-2 col1">
@@ -67,11 +66,10 @@
                         <h1 title="Cucumber Maki">Cucumber Maki</h1>
                         <p>Nori, Sushi Rice, Cucumber strips, Sesame Seeds</p>
                 </div>
-                <p class="textcenter"><a href="/menu" target="_self" style="font-size: 13px;" class="vamtam-button accent6  button-filled hover-accent1 "><span class="btext" data-text="View the full menu" style="color:#ffffff">View the full menu</span></a></p>
             </div>
             <p2><img src="images/ornament-bottom.svg"></p2>
         </div>
-
-    </body>
+    </div>
+</body>
 
 </html>
