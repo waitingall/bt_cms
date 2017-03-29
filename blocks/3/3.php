@@ -67,6 +67,7 @@
                         <h1 title="Cucumber Maki">Cucumber Maki</h1>
                         <p>Nori, Sushi Rice, Cucumber strips, Sesame Seeds</p>
                 </div>
+                <p class="textcenter"><a href="/menu" target="_self" style="font-size: 13px;" class="vamtam-button accent6  button-filled hover-accent1 "><span class="btext" data-text="View the full menu" style="color:#ffffff">View the full menu</span></a></p>
             </div>
             <p2><img src="images/ornament-bottom.svg"></p2>
         </div>
