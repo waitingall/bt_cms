@@ -1,0 +1,81 @@
+.container {
+	z-index: 555;
+	display: block;
+	float: none;
+	margin: auto;
+	max-width: 1260px;
+	width: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	-ms-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+.menu1 {
+	text-align: center;
+}
+.menu1 .menucon li1 span {
+	border-bottom: solid 3px transparent;
+    display: block;
+    padding: 10px 0px;
+    transition: border-color .3s;}
+.menucon ul {
+	list-style: none;
+}
+.menucon ul li {
+	float: left;
+}
+.hinhanh {
+	width: 1260px;
+	height: 526px;
+}
+.group-img-1 {
+	width: 237px;
+	height: 526px;
+	float: left;
+	position: relative;
+}
+.group-img-2 {
+	width: 239px;
+	height: 526px;
+	float: left;
+	position: relative;
+}
+.group-img-1 .img1 img {
+	width: 233px;
+	height: 233px;
+	padding:2px;
+}
+.group-img-1 .img2 img {
+	width: 233px;
+	height: 155px;
+	padding:2px;
+}
+.group-img-1 .img3 img {
+	width: 233px;
+	height: 126px;
+	padding:2px;
+}
+.group-img-2 .img4 img {
+	width: 239px;
+	height: 359px;
+	padding:2px;
+}
+.group-img-2 .img5 img {
+	width: 239px;
+	height: 159px;
+	padding:2px;
+}
+.group-img-3 {
+	width: 776px;
+	height: 522px;
+	float: left;
+	position: relative;
+}
+.group-img-3 .img6 img {
+	width: 776px;
+	height: 522px;
+	padding:2px;
+}
