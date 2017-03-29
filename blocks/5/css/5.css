@@ -1,0 +1,19 @@
+.container {
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.col-1 {
+}
+.col-2 {
+}
+.col-3 {
+}
+.col-4 {
+}
+
+h4 {
+    font: normal 24px/32px Libre Baskerville;
+}
