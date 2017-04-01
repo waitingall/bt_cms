@@ -35,9 +35,6 @@
                             </div>
                             <!--COL 2-->
                             <div class='col-md-7 col-2'>
-                                <div style="text-align: center; margin-top: 15px">
-                                    <img src="images/banh.jpg">
-                                </div>
                                 <h3 style="text-align: center;">Brunch</h3>
                                 <h5 class="today-specials" style="text-align: center;">Today Specials</h5>
                                 <div class="today-specials-menu">
@@ -69,9 +66,6 @@
                         <div class='row'>
                             <!--COL 3-->
                             <div class='col-md-7 col-3'>
-                                <div style="text-align: center; margin-top: 15px">
-                                    <img src="images/coffee.jpg">
-                                </div>
                                 <h3 style="text-align: center;">Happy hour</h3>
                                 <h5 class="today-specials" style="text-align: center;">Starts at 3pm</h5>
                                 <p style="text-align: center;">The restaurant will open at 3pm for happy hour and dinner service starting at 5pm. We will continue to offer brunch on weekends from 10am-3pm with bottomless mimosas. We will also continue with our late night lounge on Friday and Saturdays until 2am.</p>
