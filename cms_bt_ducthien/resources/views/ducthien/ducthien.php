@@ -59,7 +59,12 @@
                         <p>Nori, Sushi Rice, Cucumber strips, Sesame Seeds</p>
                 </div>
             </div>
-            <p2></p2>
+        <div class="footer">
+            <a href="#">
+                <span class="end-footer" data-text="View the full menu">View the full menu</span>
+            </a>
+        </div>
+        <p2></p2>
         </div>
     </div>
 </body>
