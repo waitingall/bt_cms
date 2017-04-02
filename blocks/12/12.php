@@ -33,7 +33,7 @@
 							</div>
 							<div class="content">
 								<h2 class="text-divider-double">
-									MENU
+									Tea
 								</h2>
 								<div class="text-divider-subtitle">
 								Today Specials
