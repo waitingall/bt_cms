@@ -3,12 +3,6 @@
 <html style="background-color: #f3f3f4;">
 
     <head>
-
-
-
-
-
-
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,31 +21,32 @@
     </head>
 
     <body>
-        <div class="row ">
-            <div class="no-extended-padding" style="
-                 background: url( 'images/sushi-parallax-1.jpg' ) no-repeat ;
-                 background-size: cover;
-                 background-attachment: fixed;background-color:#4a4a4a;padding-top:80px;padding-bottom:80px;" id="vamtam-column-c3abd97e9477f03c1cab59520eea4fd2"><div class="limit-wrapper"><div class="extended-column-inner"><style>#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 p,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 em,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h1,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h2,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h3,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h4,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h5,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h6,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h1 a:not(:hover),#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h2 a:not(:hover),#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h3 a:not(:hover),#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h4 a:not(:hover),#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h5 a:not(:hover),#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 h6 a:not(:hover),#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .column-title,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .sep-text h2.regular-title-wrapper,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .text-divider-double,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .sep-text .sep-text-line,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .sep,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .sep-2,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .sep-3,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .portfolio-filters .inner-wrapper .cbp-filter-item,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .portfolio-filters .inner-wrapper .cbp-filter-item:hover,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 td,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 th,#vamtam-column-c3abd97e9477f03c1cab59520eea4fd2 caption{color:#fff;}</style>
-                        <div class="vamtam-blank-space " style="height:130px">
-
-                        </div>
-                        <div class="row ">
-                            <div class="vamtam-grid animation-from-bottom animated-active no-extended-padding animation-ended" style="padding-top:0.05px;padding-bottom:0.05px;" id="vamtam-column-3a0377642a177f39cfc13af2eef556f4"> <div class="sep-text single centered">
-                                    <div class="sep-text-before">
-                                        <div class="sep-text-line">
-
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <h2 class="text-divider-double">
-                                            MENU
-                                        </h2><div class="text-divider-subtitle">Today Specials</div> </div>
-                                    <div class="sep-text-after"><div class="sep-text-line"></div></div>
-                                </div>
-                            </div></div>
-                        <div class="vamtam-blank-space " style="height:130px"></div></div></div></div>
-
-        </div>
+       <div class="" style="
+				background: url( 'https://vip-restaurant.vamtam.com/wp-content/uploads/2016/07/sushi-parallax-1.jpg' ) no-repeat ;
+				background-size: cover;
+			background-attachment: fixed;background-color:#4a4a4a;padding-top:80px;padding-bottom:80px;" id="vamtam-column-4a72034ab579d3ccada7e77c3dc801cf"><div class=""><div class=""><style>#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf p,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf em,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h1,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h2,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h3,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h4,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h5,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h6,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h1 a:not(:hover),#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h2 a:not(:hover),#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h3 a:not(:hover),#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h4 a:not(:hover),#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h5 a:not(:hover),#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf h6 a:not(:hover),#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .column-title,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .sep-text h2.regular-title-wrapper,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .text-divider-double,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .sep-text .sep-text-line,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .sep,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .sep-2,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .sep-3,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .portfolio-filters .inner-wrapper .cbp-filter-item,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .portfolio-filters .inner-wrapper .cbp-filter-item:hover,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf td,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf th,#vamtam-column-4a72034ab579d3ccada7e77c3dc801cf caption{color:#fff;}</style><div class="" style="height:130px"></div>
+				<div class="row ">
+					<div class="" style="padding-top:0.05px;padding-bottom:0.05px;" id="vamtam-column-7fe016dfa634ef0860cbc9ebc58ecfa2"> 
+						<div class="sep-text single centered">
+							<div class="sep-text-before">
+								<div class="sep-text-line"></div>
+							</div>
+							<div class="content">
+								<h2 class="text-divider-double">
+									MENU
+								</h2>
+								<div class="text-divider-subtitle">
+								Today Specials
+								</div> 
+							</div>
+							<div class="sep-text-after">
+								<div class="sep-text-line">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="vamtam-blank-space " style="height:130px"></div></div></div></div>
     </body>
 
 </html>
