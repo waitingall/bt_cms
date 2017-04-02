@@ -1,11 +1,14 @@
 .type-1 {
   background-color: #f3f3f4;
-  margin-top: 20px;
-  margin-bottom:50px;
+  margin-top: 13px;
+  margin-bottom:34px;
 }
 
 .container{
-	position:relative;
+	display: inline-block;
+	margin-left: 90px;
+	text-size-adjust: 100%;
+	width: 168px;
 }
 p1{
     background-attachment:scroll;
@@ -20,7 +23,7 @@ p1{
     display:block;
     height:35px;
     left:590px;
-    margin-left:-132px;
+    margin-left:-115px;
     mask:none;
     top:-25px;
     width:150px;
@@ -40,14 +43,13 @@ p2{
     background-position-x:0%;
     background-position-y:0%;
     background-size:auto;
-    bottom:-96px;
+    bottom:-31px;
     content:" ";
     display:inline-block;
     height:26px;
-    left:440px;
-    margin-left:-139px;
+    left:470px;
     mask:none;
-    width:156px;
+    width:150px;
     z-index:10;
     -webkit-mask-image:
 	url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-bottom.svg);
@@ -80,7 +82,7 @@ p3 img {
   font-weight: normal;
   height: 105px;
   margin-bottom: 5px;
-  margin-left: -15px;
+  margin-left: -19px;
   margin-right: 0px;
   margin-top: 20px;
   padding-bottom: 0px;
@@ -89,7 +91,7 @@ p3 img {
   padding-top: 0px;
   text-size-adjust: 100%;
   vertical-align: baseline;
-  width: 1100px;
+  width: 1140px;
 }
 
 .r2 {
@@ -124,8 +126,8 @@ p3 img {
   height: 516.094px;
   line-height: 24px;
   margin-bottom: 0px;
-  margin-left: -25px;
-  margin-right: -25px;
+  margin-left: -45px;
+  margin-right: 0px;
   margin-top: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
@@ -133,8 +135,9 @@ p3 img {
   padding-top: 0px;
   text-size-adjust: 100%;
   vertical-align: baseline;
-  width: 1100px;
+  width: 1200px;
 }
+
 .col1 h1 {
   color: #272727;
   cursor: auto;
@@ -642,7 +645,7 @@ margin-bottom:
 0px
 ;
 margin-left:
-10px
+13px
 ;
 margin-right:
 0px
@@ -792,6 +795,6 @@ user-select:none;
 vertical-align:middle;
 width:168.328px;
 z-index:0;
-margin-left: 430px;
+margin-left: 445px;
 -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
 }
