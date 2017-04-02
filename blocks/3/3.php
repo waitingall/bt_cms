@@ -19,8 +19,10 @@
 <body>
     <div class='type-1'>
         <div class="container">
+        	<div class="row r1">
                	   <p1></p1>        	   
                    <p3><img src="images/sushi-icon-3.svg" width="100" height="100"></p3>
+            </div>
         
             <div class="row r2">
                 <div class="col-md-2 col1">

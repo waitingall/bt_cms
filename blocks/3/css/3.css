@@ -5,12 +5,10 @@
 }
 
 .container{
-	display: inline-block;
+	display: block;
 	margin-left: 90px;
-	text-size-adjust: 100%;
-	width: 168px;
 }
-p1{
+.r1 p1{
     background-attachment:scroll;
     background-clip:border-box;
     background-color:rgb(245, 243, 240);
@@ -22,7 +20,7 @@ p1{
     content:" ";
     display:block;
     height:35px;
-    left:590px;
+    left:600px;
     margin-left:-115px;
     mask:none;
     top:-25px;
@@ -43,9 +41,9 @@ p2{
     background-position-x:0%;
     background-position-y:0%;
     background-size:auto;
-    bottom:-31px;
+    bottom:-96px;
     content:" ";
-    display:inline-block;
+    display:block;
     height:26px;
     left:470px;
     mask:none;
@@ -56,7 +54,7 @@ p2{
 	position:relative;
 }
 
-p3 img {
+.r1 p3 img {
   border-bottom-style: none;
   border-bottom-width: 0px;
   border-image-outset: 0px;
@@ -82,7 +80,7 @@ p3 img {
   font-weight: normal;
   height: 105px;
   margin-bottom: 5px;
-  margin-left: -19px;
+  margin-left: -8px;
   margin-right: 0px;
   margin-top: 20px;
   padding-bottom: 0px;
@@ -92,6 +90,32 @@ p3 img {
   text-size-adjust: 100%;
   vertical-align: baseline;
   width: 1140px;
+}
+
+.r1 {
+  border-bottom-color: #272727;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: #272727;
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: #272727;
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: #272727;
+  border-top-style: none;
+  border-top-width: 0px;
+  clear: both;
+  display: block;
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+  width: 1200px;
+  height: 200px;
 }
 
 .r2 {
@@ -123,7 +147,7 @@ p3 img {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: normal;
-  height: 516.094px;
+  height: 470px;
   line-height: 24px;
   margin-bottom: 0px;
   margin-left: -45px;
@@ -609,7 +633,7 @@ cursor:
 pointer
 ;
 display:
-inline-block
+block
 ;
 font-family:
 "Varela Round"
