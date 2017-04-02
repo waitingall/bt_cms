@@ -4,6 +4,9 @@
   margin-bottom:50px;
 }
 
+.container{
+	position:relative;
+}
 p1{
     background-attachment:scroll;
     background-clip:border-box;
@@ -16,16 +19,16 @@ p1{
     content:" ";
     display:block;
     height:35px;
-    left:694px;
+    left:590px;
     margin-left:-132px;
     mask:none;
-    position:absolute;
-    top:14px;
+    top:-25px;
     width:150px;
     z-index:10;
 	-webkit-mask-image:
 url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg)
 ;
+position:relative;
 }
 
 p2{
@@ -37,18 +40,18 @@ p2{
     background-position-x:0%;
     background-position-y:0%;
     background-size:auto;
-    bottom:-168px;
+    bottom:-96px;
     content:" ";
     display:inline-block;
     height:26px;
-    left:699.5px;
+    left:440px;
     margin-left:-139px;
     mask:none;
-    position:absolute;
     width:156px;
     z-index:10;
     -webkit-mask-image:
 	url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-bottom.svg);
+	position:relative;
 }
 
 p3 img {
@@ -144,12 +147,12 @@ p3 img {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: normal;
-  height: auto;
+  height: 72px;
   line-height: 32px;
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
-  margin-left: 10px;
+  width: 168.328px;
 }
 .col2 h1 {
   color: #272727;
@@ -163,12 +166,12 @@ p3 img {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: normal;
-  height: auto;
+  height: 72px;
   line-height: 32px;
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
-  margin-left: 10px;
+  width: 168.328px;
 }
 .col3 h1 {
   color: #272727;
@@ -182,12 +185,12 @@ p3 img {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: normal;
-  height: auto;
+  height: 72px;
   line-height: 32px;
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
-  margin-left: 10px;
+  width: 168.328px;
 }
 .col4 h1 {
   color: #272727;
@@ -201,12 +204,12 @@ p3 img {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: normal;
-  height: auto;
+  height: 105px;
   line-height: 32px;
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
-  margin-left: 10px;
+  width: 168.328px;
 }
 .col5 h1 {
   color: #272727;
@@ -220,12 +223,12 @@ p3 img {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: normal;
-  height: auto;
+  height: 72px;
   line-height: 32px;
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
-  margin-left: 10px;
+  width: 168.328px;
 }
 .col6 h1 {
   color: #272727;
@@ -239,12 +242,12 @@ p3 img {
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: normal;
-  height: auto;
+  height: 72px;
   line-height: 32px;
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
-  margin-left: 10px;
+  width: 168.328px;
 }
 .col1 p {
   color: #272727;
@@ -537,7 +540,7 @@ vertical-align:
 baseline
 ;
 width:
-1100px
+168.328px
 ;
 -webkit-tap-highlight-color:
 rgba(0, 0, 0, 0)
@@ -639,7 +642,7 @@ margin-bottom:
 0px
 ;
 margin-left:
--454px
+10px
 ;
 margin-right:
 0px
@@ -693,7 +696,7 @@ vertical-align:
 middle
 ;
 width:
-1100px
+168.328px
 ;
 -webkit-tap-highlight-color:
 rgba(0, 0, 0, 0)
@@ -787,7 +790,7 @@ transition-property:color, border, background;
 transition-timing-function:ease-out, ease-out, ease-out;
 user-select:none;
 vertical-align:middle;
-width:166.531px;
+width:168.328px;
 z-index:0;
 margin-left: 430px;
 -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
