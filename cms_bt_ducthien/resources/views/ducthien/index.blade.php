@@ -8,12 +8,12 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
+            include ('./../../../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/3.less', 'css/3.css');
+        $less->compileFile('./../../../less/3.less', './../../../css/3.css');
         ?>
-        <link href="css/3.css" rel="stylesheet" type="text/css" />
+        <link href="./../../../css/3.css" rel="stylesheet" type="text/css" />
     </head>
 
 <body>
