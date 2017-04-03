@@ -21,7 +21,7 @@ Route::get('/', [
 
 	]);
 
-Route::get('/ducthien', [
+Route::get('/', [
     'as' => 'ducthien',
 	'uses' => 'ducthienController@index'
 ]);
