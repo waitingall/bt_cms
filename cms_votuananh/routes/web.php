@@ -28,7 +28,7 @@ Route::get('/', [
 	'uses' => 'Controller@index'
 
 	]);
-Route::get('/', [
+Route::get('/Votuananh', [
     'as' => 'votuananh',
 	'uses' => 'VotuananhController@index'
 ]);

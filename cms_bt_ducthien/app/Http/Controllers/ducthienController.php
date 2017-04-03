@@ -11,7 +11,6 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class ducthienController extends Controller {
 
 	public function index(){
-		
 		return view('ducthien.index');
 	}
 }
