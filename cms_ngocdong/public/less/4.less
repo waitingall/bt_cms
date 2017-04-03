@@ -1,0 +1,205 @@
+
+.filter-controls {
+	display: inline-block;
+    padding: 0 10px;
+    div,
+    .filter {
+    	display: inline-block;
+	    border-bottom: 4px solid transparent;
+	    margin: 0 8px -2px 8px;
+	    padding: 5px 8px;
+	    text-transform: uppercase;
+	    cursor: pointer;
+	    font-size: 13px;
+	    font-weight: 700;
+    }
+    div.active,
+    .filter.active,
+    div:hover,
+    .filter:hover {
+	   	color: #cb7152;
+	    border-color: #cb7152;
+
+    }
+    div,
+    .filter {
+    	color: #5a5a5a;
+    }
+}
+
+.wrapper-filter-controls {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+p {
+    margin: 1em 0;
+	font: normal 16px/24px Varela Round;
+}
+.site-content {
+    padding-top: 63px;
+    padding-bottom: 90px;
+}
+.wrapper-gallery-filter {
+	.item-photo {
+		.inner:hover {
+			a img {
+				-webkit-transform: 1.1;
+			    -moz-transform: 1.1;
+			    -o-transform: 1.1;
+			    -ms-transform: 1.1;
+			    transform: 1.1;
+			    transform: scale(1.1);
+			    -webkit-transform: scale(1.1);
+			    -moz-transform: scale(1.1);
+			    -ms-transform: scale(1.1);
+			    -o-transform: scale(1.1);
+			}
+		}
+		.inner img {
+			-webkit-transition: all .6s;
+		    -moz-transition: all .6s;
+		    -o-transition: all .6s;
+		    -ms-transition: all .6s;
+		    transition: all .6s;
+		}
+		.inner:hover a:before,
+		.inner:hover a:after {
+			-moz-opacity: 1;
+		    -khtml-opacity: 1;
+		    -webkit-opacity: 1;
+		    opacity: 1;
+		    -ms-filter: alpha(opacity=100);
+		    filter: alpha(opacity=100);
+		}
+		.inner a:after {
+			width: 40px;
+		    height: 40px;
+		    content: "\f002";
+		    font: normal normal normal 32px/1 FontAwesome;
+		    color: #fff;
+		    position: absolute;
+		    top: 50%;
+		    margin-top: -20px;
+		    left: 50%;
+		    margin-left: -20px;
+		    text-align: center;
+		    -moz-opacity: 0;
+		    -khtml-opacity: 0;
+		    -webkit-opacity: 0;
+		    opacity: 0;
+		    -ms-filter: alpha(opacity=0);
+		    filter: alpha(opacity=0);
+		    -webkit-transition: all .4s ease-in-out;
+		    -moz-transition: all .4s ease-in-out;
+		    -o-transition: all .4s ease-in-out;
+		    -ms-transition: all .4s ease-in-out;
+		    transition: all .4s ease-in-out;
+		    z-index: 2;
+		}
+		.inner a:before {
+			position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    background: rgba(0, 0, 0, .5);
+		    content: "";
+		    -moz-opacity: 0;
+		    -khtml-opacity: 0;
+		    -webkit-opacity: 0;
+		    opacity: 0;
+		    -ms-filter: alpha(opacity=0);
+		    filter: alpha(opacity=0);
+		    -webkit-transition: all .4s ease-in-out;
+		    -moz-transition: all .4s ease-in-out;
+		    -o-transition: all .4s ease-in-out;
+		    -ms-transition: all .4s ease-in-out;
+		    transition: all .4s ease-in-out;
+		    z-index: 1;
+		}
+		.inner {
+			position: relative;
+   			 overflow: hidden;
+		}
+		.inner img {
+			-webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -o-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+		}
+	}
+}
+@media (min-width: 768px){
+	.item-photo {
+	margin: 0;
+	padding: 0;
+	}
+}
+@media (max-width: 767px) {
+	.item-photo {
+	margin-bottom: 30px;
+}
+}
+
+a:hover, a, a:active, a:focus {
+    text-decoration: none;
+}
+.col-1 img {
+	max-width:100%;
+}
+.hinhanh {
+	width: 1260px;
+	height: 526px;
+}
+.group-img-1 {
+	width: 237px;
+	height: 526px;
+	float: left;
+	position: relative;
+}
+.group-img-2 {
+	width: 239px;
+	height: 526px;
+	float: left;
+	position: relative;
+}
+.group-img-1 .img1 img {
+	width: 233px;
+	height: 233px;
+	padding:2px;
+}
+.group-img-1 .img2 img {
+	width: 233px;
+	height: 155px;
+	padding:2px;
+}
+.group-img-1 .img3 img {
+	width: 233px;
+	height: 126px;
+	padding:2px;
+}
+.group-img-2 .img4 img {
+	width: 239px;
+	height: 359px;
+	padding:2px;
+}
+.group-img-2 .img5 img {
+	width: 239px;
+	height: 159px;
+	padding:2px;
+}
+.group-img-3 {
+	width: 776px;
+	height: 522px;
+	float: left;
+	position: relative;
+}
+.group-img-3 .img6 img {
+	width: 776px;
+	height: 522px;
+	padding:2px;
+}
+h2 {font-size: 4.5em;}
