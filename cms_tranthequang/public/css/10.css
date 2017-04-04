@@ -1,0 +1,210 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  color: #000000;
+}
+h2 {
+  font: normal 56px/68px Libre Baskerville;
+}
+h3 {
+  font: normal 40px/50px Libre Baskerville;
+}
+h4 {
+  font: normal 24px/32px Libre Baskerville;
+}
+h5 {
+  font: normal 18px/22px Libre Baskerville;
+}
+h6 {
+  font: normal 11px/12px Varela Round;
+}
+p {
+  font: normal 16px/24px Varela Round;
+  margin: 1em 0;
+  color: #2c2c2c;
+}
+a:hover {
+  text-decoration: none;
+  color: #cb7152;
+}
+.color-text {
+  font-size: 20px;
+  color: #fff;
+}
+.col-3 {
+  border-left: 1px solid #dfdfdf;
+}
+.today-specials {
+  font: normal 14px/22px Handlee;
+  margin-top: -1em;
+  letter-spacing: 0.3em;
+  margin-bottom: 1.6em;
+  color: #cb7152;
+}
+.today-specials:before,
+.today-specials:after {
+  display: inline-block;
+  width: auto;
+  height: 15px;
+  content: "~";
+  font-size: 1.1em;
+  padding: 0px 5px;
+}
+.today-specials-menu {
+  padding: 10px;
+  cursor: pointer;
+  font-family: Varela Round;
+}
+.today-specials-menu h3 {
+  padding-bottom: 12px;
+  padding-right: 60px;
+  position: relative;
+  margin-bottom: 2px;
+  transition: all .3s;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 130%;
+  word-spacing: normal;
+  line-height: normal;
+}
+.today-specials-menu:hover h3 {
+  color: #cb7152 !important;
+}
+.today-specials-menu h2:before,
+.today-specials-menu h3:before {
+  display: block;
+  line-height: 1em;
+  font-size: 0.4em;
+  letter-spacing: 4px;
+  color: #6b6b6b;
+  content: "...................................................................................................................................................................................................................................................";
+  width: 100%;
+  overflow: hidden;
+  height: 10px;
+  bottom: 0px;
+  position: absolute;
+}
+.today-specials-price {
+  background: transparent;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 0px;
+  color: #cb7152;
+}
+.today-specials-description {
+  font-style: normal;
+  font-size: 12px;
+  color: #6b6b6b;
+  line-height: 140%;
+  font-weight: 300;
+}
+.book-table-button {
+  transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  vertical-align: middle;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 10em;
+  border: none;
+  font: normal 13px/1em "Varela Round";
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1em;
+  padding: 0;
+}
+.book-table-button:hover,
+.book-table-button:hover span {
+  text-decoration: none;
+}
+.book-table-button.accent1.button-border {
+  border: 1px solid #cb7152;
+}
+.book-table-button.hover-accent1.button-border:hover {
+  border-color: #cb7152;
+}
+.book-table-button.button-border {
+  background: none;
+  font-style: normal;
+  overflow: hidden;
+}
+.book-table-button span {
+  display: inline-block;
+  font-size: 1em;
+  line-height: inherit;
+  padding: 1em 2em;
+  margin: 0 0;
+  vertical-align: middle !important;
+  transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
+}
+.book-table-button span.book-table-text {
+  position: relative;
+  font-weight: 500;
+  padding: 1em 2em;
+}
+.book-table-button.hover-accent1.button-border:hover span,
+.book-table-button.hover-accent1.button-style-3:hover span {
+  border-color: #cb7152;
+}
+.book-table-button.button-border:hover span.book-table-text {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-out !important;
+  transform: translateY(-100%);
+}
+.book-table-button.hover-accent1.button-border:hover span.book-table-text:before {
+  color: #fff;
+  background: #cb7152;
+}
+.book-table-button.button-border:hover span.book-table-text:before {
+  position: absolute;
+  content: attr(data-text);
+  transform: translate3d(0,0,0);
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  padding: 1em 0;
+}
+.book-table-button.hover-accent1.button-border:after {
+  background: #cb7152;
+}
+.book-table-button.button-border:hover:after {
+  height: 100%;
+}
+.book-table-button.button-border:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-out !important;
+}
