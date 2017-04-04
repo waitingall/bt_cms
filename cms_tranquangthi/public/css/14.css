@@ -1,0 +1,40 @@
+.container {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  color: #000000;
+}
+h2 {
+  font: normal 56px/68px Libre Baskerville;
+}
+h4 {
+  font: normal 24px/32px Libre Baskerville;
+}
+p {
+  font: normal 16px/24px Varela Round;
+  margin: 1em 0;
+  color: #2c2c2c;
+}
+a:hover {
+  text-decoration: none;
+  color: #cb7152;
+}
+.color-text {
+  font-size: 20px;
+  color: #fff;
+}
+.col-1 {
+  background: url(../images/coffee-photo-4.jpg) no-repeat center top;
+  background-size: auto;
+}
