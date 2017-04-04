@@ -8,20 +8,23 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesResources;
 
-use App\Http\Models\Tests.php;
+use App\Http\Models\Tests;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public function index() {
-    	$obj = new Tests();
-        
-        $tests = $obj ->get_test();
-        
-        $data = array(
-            'tests' -> $tests
-        );
-        
-        return view('ducthien.index', $data);
+
+    public function index(){
+    	$responsize = new Tests();
+
+    	$tests = $responsize->get_tests();
+
+    	$data = array(
+    		'tests' => $tests
+    	);
+    	return view ('ducthien.index', $data);
+
     }
+
 }
+
