@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
         $less->compileFile('less/14.less', 'css/14.css');
-        ?>
-        <link href="css/14.css" rel="stylesheet" type="text/css" />
-
-    <title></title>
+    ?>
+    <link href="css/14.css" rel="stylesheet" type="text/css" />
+    
 </head>
+
 <body style="padding:0px; margin:0px; background-color:#fff;font-family:'Open Sans',sans-serif,arial,helvetica,verdana">
 
     <!-- #region Jssor Slider Begin -->
@@ -117,6 +121,7 @@
         .jssora12l.jssora12ldn { background-position: -256px -37px; }
         .jssora12r.jssora12rdn { background-position: -315px -37px; }
     </style>
+
     <h1 style="text-align: center">GUESTBOOK</h1>
     <div id="jssor_1" style="text-align: center; position:relative;margin:0 auto;top:0px;left:0px;width:1800px;height:600px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
@@ -144,5 +149,47 @@
     </div>
     <script type="text/javascript">jssor_1_slider_init();</script>
     <!-- #endregion Jssor Slider End -->
+
+
+<div class="clearfix"></div>
+
+<!-- Database bt_cms -->
+<div class="my-table">
+        <div class='container'>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+
+                    <!-- begin table -->
+                    <table class="table">
+                      <thead class="thead-default">
+                        <tr>
+                          <th>ID</th>
+                          <th>Name</th>
+                        </tr>
+                      </thead>
+                      
+                      <?php foreach ($tests as $test) : ?>
+
+                      <tbody>
+                        <tr>
+                          <td><?php echo $test->test_id; ?></td>
+                          <td><?php echo $test->test_name; ?></td>
+                        </tr>
+                      </tbody>
+
+                      <?php endforeach; ?>
+                      
+                    </table>
+                    <!-- end table -->
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
 </body>
 </html>

@@ -8,10 +8,20 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
+use App\Http\Models\Tests;
+
 class TranquangthiController extends Controller {
 
-    public function index() {
-        return view('tranquangthi.index');
-    }
+	public function index() {
 
+    	$obj = new Tests();
+
+    	$tests = $obj->get_tests();
+
+    	$data = array(
+    		'tests' => $tests
+    	);
+
+    	return view('tranquangthi.index', $data);
+    }
 }
