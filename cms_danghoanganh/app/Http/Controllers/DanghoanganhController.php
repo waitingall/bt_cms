@@ -10,7 +10,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 use App\Http\Models\Tests;
 
-class DanghoanganhController extends Controller {
+class LebinhphuongController extends Controller {
 
     //public function index() {
     //    return view('danghoanganh.index');
@@ -26,6 +26,6 @@ class DanghoanganhController extends Controller {
     		'tests' => $tests
     	);
 
-    	return view('danghoanganh.index', $data);
+    	return view('lebinhphuong.index', $data);
     }
 }
