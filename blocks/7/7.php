@@ -91,6 +91,9 @@
                         </a>
                     </div>
                 </div>
+                <div style="text-align: center">
+                    <img src="images/photo-sushi-7.jpg" height="400px">
+                </div>
             </div>
         </div>
     </body>
