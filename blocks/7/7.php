@@ -26,7 +26,7 @@
         <div class='type-7'>
             <div class='container'>
                 <div style="text-align: center">
-                    <img src="images/sushi-icon-5.svg" height="200px">
+                    <img src="images/sushi-icon-5.svg" height="250px">
                 </div>
                 <div class='row'>
                     <!--COL 1-->
