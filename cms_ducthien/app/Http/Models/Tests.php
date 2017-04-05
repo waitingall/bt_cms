@@ -34,9 +34,9 @@ class Tests extends Model {
 	 return $test;
 	 }
 
-	 public function delete($test_id) {
-	 $test = $this->search($test_id);
-	 $test->delete();
-	 }
+	 //public function search($test_id) {
+	 //$test = self::find($test_id);
+	 //return $test;
+	 //}
 
 }
