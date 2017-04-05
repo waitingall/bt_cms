@@ -11,18 +11,6 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('votuananh/welcome');
-// });
-
-// Route::get('/', function () {
-//     return view('votuananh/votuananh');
-// });
-
-// Route::get('/',[
-//     'as' => 'votuananh',
-//     'uses' => 'VotuananhController@index'
-// ]);
 Route::get('/', [
 	'as' => 'home',
 	'uses' => 'Controller@index'

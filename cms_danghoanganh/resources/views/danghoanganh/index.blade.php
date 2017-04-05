@@ -9,7 +9,6 @@
 
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    
     <link href="css/2.css" rel="stylesheet" type="text/css" />
     <?php
         if (!class_exists('lessc')) {
@@ -17,10 +16,46 @@
         }
         $less = new lessc;
         $less->compileFile('less/2.less', 'css/2.css');
-        ?>
+    ?>
 </head>
 
 <body>
+
+<!-- Database bt_cms -->
+<div class="my-table">
+        <div class='container'>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+
+                    <!-- begin table -->
+                    <table class="table">
+                      <thead class="thead-default">
+                        <tr>
+                          <th>ID</th>
+                          <th>Name</th>
+                        </tr>
+                      </thead>
+                      
+                      <?php foreach ($tests as $test) : ?>
+
+                      <tbody>
+                        <tr>
+                          <td><?php echo $test->test_id; ?></td>
+                          <td><?php echo $test->test_name; ?></td>
+                        </tr>
+                      </tbody>
+
+                      <?php endforeach; ?>
+                      
+                    </table>
+                    <!-- end table -->
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>
 
 <div class="clearfix"></div>
 
@@ -99,8 +134,6 @@
 <!-- end MENU Today Specials -->
 
 <div class="clearfix"></div>
-
-
 
 </body>
 </html>

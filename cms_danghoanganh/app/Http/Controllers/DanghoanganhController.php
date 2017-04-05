@@ -8,10 +8,24 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
+use App\Http\Models\Tests;
+
 class DanghoanganhController extends Controller {
 
-    public function index() {
-        return view('danghoanganh.index');
-    }
+    //public function index() {
+    //    return view('danghoanganh.index');
+    //}
 
+	public function index() {
+
+    	$obj = new Tests();
+
+    	$tests = $obj->get_tests();
+
+    	$data = array(
+    		'tests' => $tests
+    	);
+
+    	return view('danghoanganh.index', $data);
+    }
 }
