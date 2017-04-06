@@ -8,10 +8,21 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
+use App\Http\Models\Tests;
+
 class DucthienController extends Controller {
 
     public function index() {
-        return view('ducthien.index');
+
+    	$responsize = new Tests();
+    	$tests = $responsize->getList();
+
+
+    	$data = array(
+    		'listData' => $tests
+    	);
+    	
+        return view('ducthien.index', $data);
     }
 
 }
