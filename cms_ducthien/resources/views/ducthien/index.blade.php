@@ -61,23 +61,6 @@
                         <p>Nori, Sushi Rice, Cucumber strips, Sesame Seeds</p>
                 </div>
             </div>
-		<div class="row">
-                   <table class="table table-bordered table-hover">
-                      <thead>
-                        <tr>
-                          <td class="text-center">Id</td>
-                          <td class="text-center">Name</td>
-                        </tr>
-                        <?php foreach($listData as $listDatas) { ?> 
-                         <tr>
-                          <td class="text-center"><?php echo $listDatas->test_id; ?></td>
-                          <td class="text-center"><?php echo $listDatas->test_name; ?></td>
-                        </tr>
-                        <?php } ?>
-
-                      </thead>
-                   </table>
-        </div>
         <div class="footer">
             
             <a href="#">
