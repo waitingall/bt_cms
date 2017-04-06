@@ -23,6 +23,6 @@ class Controller extends BaseController
     		'tests' => $tests
     	);
 
-    	return view('lebinhphuong.index', $data);
+    	return view('danghoanganh.index', $data);
     }
 }
