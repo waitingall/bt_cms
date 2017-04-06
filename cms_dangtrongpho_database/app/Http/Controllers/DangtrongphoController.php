@@ -8,16 +8,18 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use App\Http\Models\Tests;
+
 class DangtrongphoController extends Controller {
 
     public function index() {
 		
-		$obj = new Tests();
-		$tests = $obj->get_tests();
+		$responsize = new Tests();
 		
-		$data = array(
-			'tests' => $tests
-		);
+    	$tests = $responsize->getList();
+		
+    	$data = array(
+    		'listData' => $tests
+    	);
 		
         return view('dangtrongpho.index', $data);
     }

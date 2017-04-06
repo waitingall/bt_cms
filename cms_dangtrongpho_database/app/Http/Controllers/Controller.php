@@ -10,4 +10,16 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+	
+	public function index(){
+    	$responsize = new Tests();
+		
+    	$tests = $responsize->get_tests();
+		
+    	$data = array(
+    		'tests' => $tests
+    	);
+		
+    	return view ('dangtrongpho.index', $data);
+    }
 }
