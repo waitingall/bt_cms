@@ -22,7 +22,7 @@ class Controller extends BaseController
     	$data = array(
     		'tests' => $tests
     	);
-    	return view ('votuananh.index', $data);
+    	return view ('trathaithinh.index', $data);
 
     }
 
