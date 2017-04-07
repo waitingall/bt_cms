@@ -23,6 +23,32 @@
     <body>
 
 
+	<div id="main-content">
+        <section class="content-area">
+            <div class="container site-content">
+            <div class="row">
+                    
+                   <table class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <td class="text-center">Id</td>
+                          <td class="text-center">Name</td>
+                        </tr>
+                        <?php foreach($listData as $listDatas) { ?> 
+                         <tr>
+                          <td class="text-center"><?php echo $listDatas->contact_id; ?></td>
+                          <td class="text-center"><?php echo $listDatas->contact_name; ?></td>
+                        </tr>
+                        <?php } ?>
+
+                      </thead>
+
+
+
+                    </table>
+                    
+                    
+
         <div class='type-7'>
             <div class='container'>
                 <div style="text-align: center">
