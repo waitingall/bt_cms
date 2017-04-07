@@ -10,7 +10,7 @@ class Tests extends Model {
 	 protected $fillable = [
 	 "contact_name",
 	 ];
-	 protected $guarded = ["contactt_id"];
+	 protected $guarded = ["contact_id"];
 
 	 public function getList(){
 	 	 $responsize = DB::select('select * from contact');
@@ -29,7 +29,7 @@ class Tests extends Model {
 	 return $contact;
 	 }
 
-	 public function search($contactt_id) {
+	 public function search($contact_id) {
 	 $contact = self::find($contact_id);
 	 return $contact;
 	 }
