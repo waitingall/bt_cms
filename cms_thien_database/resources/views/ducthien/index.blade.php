@@ -979,12 +979,12 @@
     <div id="jssor_1" style="text-align: center; position:relative;margin:0 auto;top:0px;left:0px;width:1800px;height:600px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
         
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1800px;height:600px;overflow:hidden;">
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1800px;height:600px;">
             <div>
-                <img data-u="images src="images/h1.png" />
+                <img data-u="images" src="images/h1.png" />
             </div>
             <div>
-                <img data-u="images src="images/h2.png" />
+                <img data-u="images" src="images/h2.png" />
             </div>
             <div>
                 <img data-u="images" src="images/h3.png" />
