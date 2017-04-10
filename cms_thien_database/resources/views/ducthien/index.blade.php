@@ -55,7 +55,7 @@
                  <!--COL 3-->
                     <div class='col-md-4 col-3'>
                        
-                        <img src='images/<?php echo $newsId2['image']; ?>'>
+                        <img src='images/<?php echo $newsId1['image']; ?>'>
                         <h4 class='title'><?php echo $newsId2['name']; ?></h4>
                         <p><span></span>
                            <?php echo $newsId2['description']; ?></p>
