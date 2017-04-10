@@ -250,7 +250,7 @@
 	<!-- ket thuc man hinh 2 -->
 	<div class='clearfix'></div>
 	<!-- man hinh 3 -->
-	
+<div class='type-3'>
 	<div id="main-content">
   <section class="content-area">
     <div class="container site-content">
@@ -314,6 +314,14 @@
 </div>
 <script type='text/javascript' src="js/main.minc5bc.js"></script> 
 <script type='text/javascript' src="js/custom-script.minc5bc.js"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <!-- ket thuc man hinh 3 -->
 <div class='clearfix'></div>
 <!-- man hinh 4 -->
@@ -354,7 +362,7 @@
 
 <div class="clearfix"></div>
 
-    <div class='type-5'>
+    <div class='type 5'>
         <div class='container'>
             <div class='row'>
                 <!--COL 1-->
@@ -449,14 +457,11 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
-    </div>
 <!-- ket thuc man hinh 4 -->
 	
 <!-- man hinh 5 -->
     
-								
+
 <!-- ket thuc man hinh 5 -->
 <div class='clearfix'></div>
 <!-- man hinh 6 -->
@@ -760,8 +765,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+</div>
 <!-- ket thuc man hinh 8 -->
+<div class='clearfix'></div>
+<!-- man hinh them-->
+
+<!-- man hinh them-->		
 <div class='clearfix'></div>
 <!-- man hinh 9 -->
 					<table class="table">
@@ -972,16 +981,16 @@
         
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1800px;height:600px;overflow:hidden;">
             <div>
-                <img data-u="image" src="images/h1.png" />
+                <img data-u="images src="images/h1.png" />
             </div>
             <div>
-                <img data-u="image" src="images/h2.png" />
+                <img data-u="images src="images/h2.png" />
             </div>
             <div>
-                <img data-u="image" src="images/h3.png" />
+                <img data-u="images" src="images/h3.png" />
             </div>
             <div>
-                <img data-u="image" src="images/h4.png" />
+                <img data-u="images" src="images/h4.png" />
             </div>
         </div>
         <!-- Bullet Navigator -->
@@ -1309,288 +1318,46 @@
 <div class='clearfix'></div>
 
 <!-- man hinh 9 -->
-<div id="page" class="main-container">
 
-         <div class="row">
-                    
-                   <table class="table">
-                      <thead class="thead-default">
-                        <tr>
-                          <th></th>
-                          <th></th>
-                        </tr>
-                      </thead>
-                      
-                   
+<!-- ket thuc man hinh 9 -->
+<div class='clearfix'></div>
 
-                      <tbody>
-                        <tr>
-                           <td><?php echo $newsId2['description']; ?></td>
-                          <td><?php echo $newsId2['description']; ?></td>
-                        </tr>
-                      </tbody>
-
-                      
-                      
-                    </table>
-
-            </div>
-        <div class="boxed-layout">
-            <div class="pane-wrapper clearfix">
-
-
-                <div id="main-content">
-                    <div id="main" role="main" class="vamtam-main layout-full">
-                        <div class="row page-wrapper">
-                            <article id="post-11185" class="full post-11185 page type-page status-publish hentry">
-
-
-
-                                <div class="vamtam-blank-space  vamtam-hide-lowres" style="margin-bottom:-80px"></div>
-                                <div class="limit-wrapper">
-<div class="content">
-<h2 class="text-divider-double">
-News &amp; Events
-</h2><div class="text-divider-subtitle">Today Specials</div> </div>
-<div class="sep-text-after"><div class="sep-text-line"></div></div>
-</div>
-</div>
-                               
-
-                              
-                                <div class="row">
-                                    <div class="vamtam-grid grid-1-1  vamtam-first-level grid-1-1  first has-background extended no-extended-padding" style="background-color:#F6F6F6;padding-top:60px;padding-bottom:20px;" id="vamtam-column-22a6571406c86ceb7f246754f20459db">
-                                        <div class="limit-wrapper">
-                                            <div class="extended-column-inner">
-
-                                                <div class="row ">
-                                                    <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding" style="padding-top:0.05px;padding-bottom:0.05px;" id="vamtam-column-a6db70bbe74c691e79c3b840a11831a6">
-                                                        <div class="loop-wrapper clearfix news mosaic paginated vamtam-cubeportfolio cbp vamtam-cube-loaded cbp-caption-active cbp-caption-pushTop cbp-ready" data-columns="4" style="height: 689px;">
-                                                            <div class="cbp-wrapper-outer">
-                                                                <div class="cbp-wrapper">
-                                                                    <div class="page-content post-header clearboth list-item cbp-item post-298 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-tips-tricks tag-bio tag-dinner tag-food tag-hand-made tag-lamb tag-recipe tag-tricks" style="width: 292px; left: 0px; top: 0px;">
-                                                                        <div class="cbp-item-wrapper">
-                                                                            <div>
-                                                                                <div class="post-article has-image-wrapper ">
-                                                                                    <div class="standard-post-format clearfix as-image ">
-                                                                                        <div class="post-media">
-                                                                                            <div class="thumbnail">
-                                                                                                <a href="">
-                                                                                                    <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/08/Meat-1-400x268.jpg" class="attachment-theme-normal-4 size-theme-normal-4 wp-post-image"> <span class="icon shortcode theme  use-hover" style=""></span> </a>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="post-content-wrapper">
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="vamtam-meta-tax the-categories"><span class="icon theme"></span> <span class="visuallyhidden">Category</span><a href="" r>Recipes</a> <a href="" rel="category tag">Tips &amp; Tricks</a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <header class="single">
-                                                                                                <div class="content">
-                                                                                                    <h4>
-                                                                                                    <a href="" title="Which Lamb is the Best: American, Australian or New Zealand?" class="entry-title">Which Lamb is the Best: American, Australian or New Zealand?</a>
-                                                                                                    </h4>
-                                                                                                </div>
-                                                                                            </header>
-                                                                                            <div class="post-content-outer">
-                                                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
-                                                                                            </div>
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="the-tags vamtam-meta-tax">
-                                                                                                    <span class="icon"></span> <span class="visuallyhidden">Tags</span> <a href="">Bio</a>, <a href="" rel="tag">Dinner</a>, <a href="/" rel="tag">Food</a>, <a href="" rel="tag">Hand Made</a>, <a href="" rel="tag">lamb</a>, <a href="" rel="tag">recipe</a>, <a href="" rel="tag">tricks</a> </div>
-                                                                                            </div>
-                                                                                            <div class="post-actions-wrapper clearfix">
-                                                                                                <div class="author vamtam-meta-author"><a href="/" title="Posts by Jon Madison" rel="author"><span class="icon shortcode theme  use-hover"></span> Jon Madison</a>
-                                                                                                </div>
-                                                                                                <div class="post-date vamtam-meta-date">
-                                                                                                    <a href="/" title="Which Lamb is the Best: American, Australian or New Zealand?">27 Sep, 2014 </a>
-                                                                                                </div>
-                                                                                                <span class="comment-count vamtam-meta-comments">
-
-                                                                                                
-                                                                                                </span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="page-content post-header clearboth list-item cbp-item post-298 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-tips-tricks tag-bio tag-dinner tag-food tag-hand-made tag-lamb tag-recipe tag-tricks" style="width: 292px; left: 0px; top: 0px;">
-                                                                        <div class="cbp-item-wrapper">
-                                                                            <div>
-                                                                                <div class="post-article has-image-wrapper ">
-                                                                                    <div class="standard-post-format clearfix as-image ">
-                                                                                        <div class="post-media">
-                                                                                            <div class="thumbnail">
-                                                                                                <a href="">
-                                                                                                    <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/08/Meat-1-400x268.jpg" class="attachment-theme-normal-4 size-theme-normal-4 wp-post-image"> <span class="icon shortcode theme  use-hover" style=""></span> </a>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="post-content-wrapper">
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="vamtam-meta-tax the-categories"><span class="icon theme"></span> <span class="visuallyhidden">Category</span><a href="" r>Recipes</a> <a href="" rel="category tag">Tips &amp; Tricks</a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <header class="single">
-                                                                                                <div class="content">
-                                                                                                    <h4>
-                                                                                                    <a href="" title="Which Lamb is the Best: American, Australian or New Zealand?" class="entry-title">Which Lamb is the Best: American, Australian or New Zealand?</a>
-                                                                                                    </h4>
-                                                                                                </div>
-                                                                                            </header>
-                                                                                            <div class="post-content-outer">
-                                                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
-                                                                                            </div>
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="the-tags vamtam-meta-tax">
-                                                                                                    <span class="icon"></span> <span class="visuallyhidden">Tags</span> <a href="">Bio</a>, <a href="" rel="tag">Dinner</a>, <a href="/" rel="tag">Food</a>, <a href="" rel="tag">Hand Made</a>, <a href="" rel="tag">lamb</a>, <a href="" rel="tag">recipe</a>, <a href="" rel="tag">tricks</a> </div>
-                                                                                            </div>
-                                                                                            <div class="post-actions-wrapper clearfix">
-                                                                                                <div class="author vamtam-meta-author"><a href="/" title="Posts by Jon Madison" rel="author"><span class="icon shortcode theme  use-hover"></span> Jon Madison</a>
-                                                                                                </div>
-                                                                                                <div class="post-date vamtam-meta-date">
-                                                                                                    <a href="/" title="Which Lamb is the Best: American, Australian or New Zealand?">27 Sep, 2014 </a>
-                                                                                                </div>
-                                                                                                <span class="comment-count vamtam-meta-comments">
-
-                                                                                                
-                                                                                                </span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="page-content post-header clearboth list-item cbp-item post-298 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-tips-tricks tag-bio tag-dinner tag-food tag-hand-made tag-lamb tag-recipe tag-tricks" style="width: 292px; left: 0px; top: 0px;">
-                                                                        <div class="cbp-item-wrapper">
-                                                                            <div>
-                                                                                <div class="post-article has-image-wrapper ">
-                                                                                    <div class="standard-post-format clearfix as-image ">
-                                                                                        <div class="post-media">
-                                                                                            <div class="thumbnail">
-                                                                                                <a href="">
-                                                                                                    <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/08/Meat-1-400x268.jpg" class="attachment-theme-normal-4 size-theme-normal-4 wp-post-image"> <span class="icon shortcode theme  use-hover" style=""></span> </a>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="post-content-wrapper">
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="vamtam-meta-tax the-categories"><span class="icon theme"></span> <span class="visuallyhidden">Category</span><a href="" r>Recipes</a> <a href="" rel="category tag">Tips &amp; Tricks</a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <header class="single">
-                                                                                                <div class="content">
-                                                                                                    <h4>
-                                                                                                    <a href="" title="Which Lamb is the Best: American, Australian or New Zealand?" class="entry-title">Which Lamb is the Best: American, Australian or New Zealand?</a>
-                                                                                                    </h4>
-                                                                                                </div>
-                                                                                            </header>
-                                                                                            <div class="post-content-outer">
-                                                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
-                                                                                            </div>
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="the-tags vamtam-meta-tax">
-                                                                                                    <span class="icon"></span> <span class="visuallyhidden">Tags</span> <a href="">Bio</a>, <a href="" rel="tag">Dinner</a>, <a href="/" rel="tag">Food</a>, <a href="" rel="tag">Hand Made</a>, <a href="" rel="tag">lamb</a>, <a href="" rel="tag">recipe</a>, <a href="" rel="tag">tricks</a> </div>
-                                                                                            </div>
-                                                                                            <div class="post-actions-wrapper clearfix">
-                                                                                                <div class="author vamtam-meta-author"><a href="/" title="Posts by Jon Madison" rel="author"><span class="icon shortcode theme  use-hover"></span> Jon Madison</a>
-                                                                                                </div>
-                                                                                                <div class="post-date vamtam-meta-date">
-                                                                                                    <a href="/" title="Which Lamb is the Best: American, Australian or New Zealand?">27 Sep, 2014 </a>
-                                                                                                </div>
-                                                                                                <span class="comment-count vamtam-meta-comments">
-
-                                                                                                
-                                                                                                </span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="page-content post-header clearboth list-item cbp-item post-298 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-tips-tricks tag-bio tag-dinner tag-food tag-hand-made tag-lamb tag-recipe tag-tricks" style="width: 292px; left: 0px; top: 0px;">
-                                                                        <div class="cbp-item-wrapper">
-                                                                            <div>
-                                                                                <div class="post-article has-image-wrapper ">
-                                                                                    <div class="standard-post-format clearfix as-image ">
-                                                                                        <div class="post-media">
-                                                                                            <div class="thumbnail">
-                                                                                                <a href="">
-                                                                                                    <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/08/Meat-1-400x268.jpg" class="attachment-theme-normal-4 size-theme-normal-4 wp-post-image"> <span class="icon shortcode theme  use-hover" style=""></span> </a>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="post-content-wrapper">
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="vamtam-meta-tax the-categories"><span class="icon theme"></span> <span class="visuallyhidden">Category</span><a href="" r>Recipes</a> <a href="" rel="category tag">Tips &amp; Tricks</a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <header class="single">
-                                                                                                <div class="content">
-                                                                                                    <h4>
-                                                                                                    <a href="" title="Which Lamb is the Best: American, Australian or New Zealand?" class="entry-title">Which Lamb is the Best: American, Australian or New Zealand?</a>
-                                                                                                    </h4>
-                                                                                                </div>
-                                                                                            </header>
-                                                                                            <div class="post-content-outer">
-                                                                                                <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
-                                                                                            </div>
-                                                                                            <div class="post-content-meta">
-                                                                                                <div class="the-tags vamtam-meta-tax">
-                                                                                                    <span class="icon"></span> <span class="visuallyhidden">Tags</span> <a href="">Bio</a>, <a href="" rel="tag">Dinner</a>, <a href="/" rel="tag">Food</a>, <a href="" rel="tag">Hand Made</a>, <a href="" rel="tag">lamb</a>, <a href="" rel="tag">recipe</a>, <a href="" rel="tag">tricks</a> </div>
-                                                                                            </div>
-                                                                                            <div class="post-actions-wrapper clearfix">
-                                                                                                <div class="author vamtam-meta-author"><a href="/" title="Posts by Jon Madison" rel="author"><span class="icon shortcode theme  use-hover"></span> Jon Madison</a>
-                                                                                                </div>
-                                                                                                <div class="post-date vamtam-meta-date">
-                                                                                                    <a href="/" title="Which Lamb is the Best: American, Australian or New Zealand?">27 Sep, 2014 </a>
-                                                                                                </div>
-                                                                                                <span class="comment-count vamtam-meta-comments">
-
-                                                                                                
-                                                                                                </span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="load-more clearboth vamtam-pagination-wrapper"><a href="" class="lm-btn vamtam-button button-border accent1 hover-accent6"><span class="btext" data-text="Load more">Load more</span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-
-                        </article>
+<!-- man hinh 9 -->
+<div class='type-9'>
+			<div class='style' background: url(../images/coffee-img-4-1.jpg) no-repeat center top;
+    background-size: auto;
+    background-position-y: -308px;></div>
+            <div class='container'>
+                <div class='row'>
+				
+                    <!--COL 1-->
+                    <p style="height: 200px"></p>
+                    <div class='col-md-4 col-1'>
+                        <p style="height: 200px"></p>
+                        <h4>Tools</h4>
+                        <p>“Professional chefs rely on a battery of tools and equipment. Chefs must be conscious of their kitchen tools when planning a menu and understand their use and production capacity.”</p>
+                    </div>
+                    <!--COL 2-->
+                    <div class='col-md-4 col-2'>
+                        <img src="images/coffee-img-1.png">
+                        <h3>Welcome</h3>
+                        <p>“First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or for the past 15 years in front of the camera on my Food Network cooking shows. Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
+                        <p style="height: 200px"></p>
+                    </div>
+                    <!--COL 3-->
+                    <div class='col-md-4 col-3'>
+                        <p style="height: 200px"></p>
+                        <h4>Food</h4>
+                        <p>“Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </div>
-    </div>
+</div>			
 <!-- ket thuc man hinh 9 -->
 <div class='clearfix'></div>
 
 <!-- man hinh 9 -->
-<!-- ket thuc man hinh 9 -->
-<div class='clearfix'></div>
 
-<!-- man hinh 9 -->
 <!-- ket thuc man hinh 9 -->
 <div class='clearfix'></div>
 
