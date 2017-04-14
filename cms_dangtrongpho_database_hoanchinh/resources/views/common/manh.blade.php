@@ -5,9 +5,9 @@
                     <div class="sep-text-before"><div class="sep-text-line"></div></div>
                     <div class="content">
                         <h2 class="text-divider-double">
-                            We offer
+                            Ngoài ra chúng tôi còn có
                         </h2>
-                        <div class="text-divider-subtitle">Today Specials</div>
+                        <div class="text-divider-subtitle">Đặc biệt hôm nay</div>
                     </div>
                     <div class="sep-text-after"><div class="sep-text-line"></div></div>
                 </div>
